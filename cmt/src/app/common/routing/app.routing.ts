@@ -2,6 +2,7 @@ import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { LoginComponent } from '../../modules/login/login.component';
 import { AuthGuard } from './auth.guard';
+import {DashboardComponent} from "../../modules/dashboard/dashboard.component";
 
 const appRoutes: Routes  = [
 {
@@ -11,7 +12,11 @@ const appRoutes: Routes  = [
 {
   path: 'login',
   component: LoginComponent,
-}
+},
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
+  }
 //,
 // {
 //   path: 'dashboard',

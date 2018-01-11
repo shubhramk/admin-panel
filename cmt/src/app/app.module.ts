@@ -16,6 +16,7 @@ import {HttpInterceptorClass} from "./common/services/http.interceptor";
 
 import { AppComponent } from './app.component';
 import {LoginComponent} from "./modules/login/login.component";
+import {DashboardComponent} from "./modules/dashboard/dashboard.component";
 
 
 
@@ -23,7 +24,8 @@ import {LoginComponent} from "./modules/login/login.component";
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
