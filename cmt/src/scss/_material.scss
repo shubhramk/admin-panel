@@ -1,0 +1,27 @@
+.mat-form-field{
+    display: block !important;
+    font-family: 'Lato', sans-serif;
+    .mat-form-field-wrapper{
+        padding-bottom:1.75em;
+    }
+}
+.mat-form-field-label{
+    color: $black;
+    font-size: 14px;
+}
+.mat-raised-button{
+    &.custom-btn{
+        background: $green;
+        color: $white ;
+        margin:20px auto 20px;
+        font-size: 14px;
+        font-weight:bold;
+        border-radius: 30px;
+        line-height: 50px;
+        box-shadow: none !important;
+        display: block;
+        height: 50px;
+        padding: 0 60px; 
+    }
+	
+}

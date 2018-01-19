@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MatInputModule, MatSelectModule, MatOptionModule,MatRadioModule,
+import { MatInputModule, MatSelectModule, MatOptionModule, MatRadioModule,
          MatSlideToggleModule, MatButtonModule, MatExpansionModule,
-         MatCheckboxModule, MatCommonModule, MatProgressSpinnerModule,MatTooltipModule,
-         MatProgressBarModule, MatIconModule, MatNativeDateModule} from "@angular/material"
+         MatCheckboxModule, MatCommonModule, MatProgressSpinnerModule, MatTooltipModule,
+         MatProgressBarModule, MatIconModule, MatNativeDateModule} from '@angular/material';
 
 import {MatDatepickerModule } from '@angular/material/datepicker';
-import {ClickOutSideModule} from "./../clickoutside/clickoutside.module";
+import {ClickOutSideModule} from './../clickoutside/clickoutside.module';
 
 @NgModule({
   imports: [
@@ -50,7 +50,8 @@ import {ClickOutSideModule} from "./../clickoutside/clickoutside.module";
     MatExpansionModule,
     MatCommonModule,
     MatProgressBarModule,
-    MatIconModule,MatProgressSpinnerModule,
+    MatIconModule,
+    MatProgressSpinnerModule,
     MatDatepickerModule,
     MatNativeDateModule,
     MatSlideToggleModule,
